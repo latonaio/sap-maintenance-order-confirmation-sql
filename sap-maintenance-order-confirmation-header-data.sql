@@ -29,6 +29,6 @@ CREATE TABLE `sap_maintenance_order_confirmation_header_data`
   `AccountingIndicatorCode`         varchar(2) DEFAULT NULL,
   `ActyConfFcstdEndDate`            varchar(80) DEFAULT NULL,
   `ActyConfFcstdEndTime`            varchar(80) DEFAULT NULL,
-    PRIMARY KEY (`MaintOrderConf`),
+    PRIMARY KEY (`MaintOrderConf`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
